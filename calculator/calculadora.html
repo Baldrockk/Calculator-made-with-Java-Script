@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>  
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <div id = "fundo">
+            <div id ="calculadora">
+                <div id = "tela">
+                    <input type="text" id="display" value = 0 onfocus="this.blur()">
+                </div>
+                <div class = "botoes">
+                    <p>
+                        <input type ="button" id = "botao1" value = "AC" onclick="calc.limparTela()">
+                        <input type ="button" id = "botao1" value = "+/-">
+                        <input type ="button" id = "botao1" value = "%">
+                        <input type ="button" id = "botao2" value = "/"onclick ="calc.div()">
+                    </p>
+                    <p>
+                        <input type ="button" id = "botao1" value = "7" onclick="calc.Pressionou(7)">
+                        <input type ="button" id = "botao1" value = "8" onclick="calc.Pressionou(8)"> 
+                        <input type ="button" id = "botao1" value = "9" onclick="calc.Pressionou(9)">
+                        <input type ="button" id = "botao2" value = "X" onclick="calc.mult()">
+                    </p>
+                    <p>
+                        <input type ="button" id = "botao1" value = "4" onclick="calc.Pressionou47)">
+                        <input type ="button" id = "botao1"value = "5" onclick="calc.Pressionou(5)">
+                        <input type ="button" id = "botao1"value = "6" onclick="calc.Pressionou(6)">
+                        <input type ="button" id = "botao2"value = "-" onclick="calc.sub()">
+                    </p>
+                    <p>
+                        <input type ="button" id = "botao1"value = "1" onclick="calc.Pressionou(1)">
+                        <input type ="button" id = "botao1"value = "2" onclick="calc.Pressionou(2)">
+                        <input type ="button" id = "botao1"value = "3" onclick="calc.Pressionou(3)">
+                        <input type ="button" id = "botao2"value = "+" onclick="calc.soma()">
+                    </p>
+                    <p>
+                        <input type ="button" id = "botao0"value = "0" onclick="calc.Pressionou(0)">
+                        <input type ="button" id = "botao1"value = ",">
+                        <input type ="button" id = "botao2"value = "=" onclick="calc.igual()">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>
